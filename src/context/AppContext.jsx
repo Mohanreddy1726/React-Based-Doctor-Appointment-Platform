@@ -1,6 +1,6 @@
-import { createContext, useEffect, useState } from "react";
-import axios from 'axios'
-import { toast } from "react-toastify";
+import { createContext, useState } from "react";
+// import axios from 'axios'
+// import { toast } from "react-toastify";
 import { doctors } from "../assets/assets";
 
 export const AppContext = createContext()
